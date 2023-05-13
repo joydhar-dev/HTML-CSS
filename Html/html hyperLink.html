@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html - Day03</title>
+    <link rel="stylesheet" href="../Css/html_base.css" />
+    <style>
+      a {
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- 
+      Topic Name : ⚡ Html HyperLink
+      Date       : ⚡ 10/05/2023
+     -->
+      <h1 class="title">⚡Html HyperLink⚡</h1>
+      <!-- ---------------------------------------------------------- -->
+      <!-- 
+      * HTML links are hyperlinks.
+
+      * we can click on a link and jump to another document.
+
+      * When we move the mouse over a link, the mouse arrow will turn into a little hand. 
+     -->
+
+      <!-- 
+      * syntax 
+      * <a href="url">link text</a>
+      -->
+
+      <a href="https://www.google.com/" target="_top">Visit Google</a>
+
+      <!-- *target attribute
+      *_self - Default. Opens the document in the same window/tab as it was clicked
+      *_blank - Opens the document in a new window or tab
+      *_parent - Opens the document in the parent frame
+      *_top - Opens the document in the full body of the window
+      -->
+
+      <br /><br />
+
+      <h4>Use an image as a link :</h4>
+      <!-- To use an image as a link, just put the <img> tag inside the <a> tag -->
+
+      <a href="html attribute.html">
+        <img
+          src="../Images/image-1.jpg"
+          alt="Html Attribute"
+          style="width: 100px; height: 100px" />
+      </a>
+      <br /><br />
+
+      <h4>Link to an Email Address :</h4>
+      <!-- Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email) -->
+
+      <a href="mailto:mr.joydhar.bd@gmail.com"
+        >Send email at - mr.joydhar.bd@gmail.com
+      </a>
+      <br /><br />
+
+      <h4>Button as a Link :</h4>
+
+      <!-- <button><a href="html attribute.html">Html attribute</a></button> -->
+      <button onclick="document.location='html attribute.html'">
+        Html attribute
+      </button>
+      <br /><br />
+
+      <h4>link titles :</h4>
+      <!--The title attribute specifies extra information about an element.  -->
+
+      <a href="https://www.google.com/" title="search with google">Search</a>
+
+      <br /><br />
+
+      <button onclick="document.location='html hyperLinkColor.html'">
+        Go to html hyperLinkColor
+      </button>
+
+      <!-- ---------------------------------------------------------- -->
+    </div>
+  </body>
+</html>

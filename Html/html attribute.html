@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html - Day01</title>
+    <link rel="stylesheet" href="../Css/html_base.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 
+      Topic Name : ⚡ Html Attribute
+      Date       : ⚡ 07/05/2023
+     -->
+      <h1 class="title">⚡Html Attribute⚡</h1>
+      <!-- ---------------------------------------------------------- -->
+
+      <!-- 
+* HTML attributes provide additional information about HTML elements.
+* ** All HTML elements can have attributes
+* ** Attributes provide additional information about elements
+* ** Attributes are always specified in the start tag
+* ** Attributes usually come in name/value pairs like: name="value"
+ -->
+
+      <h4>The "href" attributes :</h4>
+
+      <!-- 
+       The href attribute in HTML is used to specify the URL (Uniform Resource Locator) of the destination page or file that will be opened when a link is clicked.
+
+      The href attribute can also be used to link to other pages within the same website.
+      -->
+      <small>href attribute is used to specify the URL ==></small>
+      <a
+        href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_attributes_link">
+        href attribute example
+      </a>
+
+      <br /><br /><br />
+
+      <h4>The "src" attributes :</h4>
+
+      <!-- 
+       The src attribute is used in HTML to specify the source URL of an external resource such as an image, audio, video, iframe or script. 
+
+       The src attribute is used with various HTML tags such as <img>, <audio>, <video>, <iframe> and <script>.
+
+
+      The width attribute is used in HTML to set the width of element content.
+      The height attribute is used in HTML to set the height of element content.
+      -->
+      <small>src attribute used for specify the source of an URL</small>
+      <img
+        src="https://cdn.pixabay.com/photo/2023/04/21/12/18/flower-7941814_960_720.jpg"
+        width="200" />
+
+      <!-- 
+         * ** There are two ways to specify the URL in the src attribute.
+         * 01. Absolute URL : Links to an external image that is hosted on another website.
+
+         * 02. Relative URL : Links to an image that is hosted within the website. Here, the URL does not include the domain name. 
+         -->
+
+      <img src="../Images/image-1.jpg" width="200" height="200" />
+
+      <br /><br /><br />
+
+      <h4>The 'alt' attribute :</h4>
+      <!-- 
+      * The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. 
+       -->
+
+      <small>alt attribute used to set alternate text for an image.</small>
+
+      <img src="../Images/image-100.jpg" alt="A beautiful flower" width="200" />
+
+      <br /><br /><br />
+
+      <h4>The 'style' attribute :</h4>
+      <!-- 
+      * The style attribute is used to add styles to an element, such as color, font, size, and more.
+       -->
+
+      <small>style attribute used to styles to an element.</small>
+
+      <p style="font-size: 20px; color: red; margin-top: 10px">
+        This is an text element.
+      </p>
+      <p
+        style="
+          font-size: 25px;
+          color: rgb(17, 207, 90);
+          margin-top: 10px;
+          font-weight: bold;
+        ">
+        This is an text element too.
+      </p>
+
+      <br /><br /><br />
+
+      <h4>The 'tilte' attribute :</h4>
+      <!-- 
+      * The title attribute defines some extra information about an element.
+      * The value of the title attribute will be displayed as a tooltip when you mouse over the element
+       -->
+
+      <small
+        >The tilte attribute used to set defines some extra information about an
+        element.</small
+      >
+
+      <h3 title="this is h3 element">Heading Text.</h3>
+      <p title="this is p tag element">Lorem ipsum dolor sit amet.</p>
+      <!-- -------------------------------------------------------- -->
+    </div>
+    <!-- .container End-->
+  </body>
+</html>
